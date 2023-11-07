@@ -46,7 +46,7 @@ for iter in range(50):
     axs[1, 2].imshow(correction, cmap="Greys_r")
     axs[1, 2].set_title("BP of ratio")
     plt.show()
-
+    plt.pause(0.1)
     mlem_rec = mlem_rec * correction
 
-# plt.show(block=True)
+plt.show(block=True)
